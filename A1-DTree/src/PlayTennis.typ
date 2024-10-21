@@ -494,7 +494,7 @@ There are 3 possible values for the Temperature attribute: "Hot", "Mild" and "Co
 
 Let's start with the "Hot" value. There are no occurrences for it:
 
-$ E("Temperature"_H) &= emptyset $
+$ E("Temperature"_(N_R - H)) &= emptyset $
 
 Let's analyze the "Mild" value. There are 3 occurrences of it:
 #align(center, table(
@@ -510,7 +510,7 @@ In total:
 
 - 1 occurrence of $"PlayTennis"_"N" space => 1/3$
 
-$ E("Temperature"_M) &= - (log(2/3) times 2/3 + log(1/3) times 1/3 ) \ & approx 0.918 $
+$ E("Temperature"_(N_R - M)) &= - (log(2/3) times 2/3 + log(1/3) times 1/3 ) \ & approx 0.918 $
 
 Let's analyze the "Cool" value. There are 2 occurrences of it:
 #align(center, table(
@@ -525,7 +525,7 @@ In total:
 
 - 1 occurrence of $"PlayTennis"_"N" space => 1/2$
 
-$ E("Temperature"_C) &= 0.5 $
+$ E("Temperature"_(N_R - C)) &= 0.5 $
 \
 
 So the *Information Gain* from the attribute "Temperature" is: 
