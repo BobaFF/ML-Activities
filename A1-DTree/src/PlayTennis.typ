@@ -1,4 +1,5 @@
 #set text(font: "New Computer Modern")
+#set document(author: "Francesco Furno", title: "Play Tennis: Decision Tree - Complete example")
 #set page(numbering: "1/1")
 #align(center,
   [
